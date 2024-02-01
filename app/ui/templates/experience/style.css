@@ -1,28 +1,27 @@
-.jSOuST {
-  @apply text-xl p-2 pb-0 pl-4 text-[#4F9896] mb-0 font-openSansBold !important;
-}
-.jaQaOm {
-  @apply mt-0 py-0 font-openSans dark:text-middleWhite !important;
-}
-.jGdIlj {
+
+.timeline-controls {
   @apply hidden !important;
 }
-.wFwOO {
-  @apply sm:w-3/4 xl:w-2/4 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-xl p-2 dark:bg-[#232D3F] !important;
-}
-.fQPKYJ {
-  @apply text-lg font-openSansBold dark:text-middleWhite !important;
-}
-.fQPKYJ.active {
-  @apply dark:bg-bgDark
-}
-.gsLweB, .eZkwaW{
-  @apply dark:bg-bgDark
-}
-
 .card-media-wrapper {
   @apply bg-transparent !important;
 }
-.bFOzmI, .ccTkJh {
-  @apply rounded-lg !important;
+.timeline-item-title .active .rc-title {
+  @apply dark:bg-bgDark
+}
+.timeline-item-title {
+  @apply text-lg font-openSansBold dark:text-middleWhite !important;
+}
+.card-description > p {
+  @apply mt-0 py-0 font-openSans dark:text-middleWhite !important;
+}
+.card-sub-title {
+  @apply text-lg font-openSansBold dark:text-middleWhite !important;
+}
+
+[data-testid="timeline-card-content"] {
+  @apply sm:w-3/4 xl:w-2/4 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-xl p-2 dark:bg-[#232D3F] !important;
+}
+
+[data-testid="timeline-card-content"] > span {
+  @apply dark:bg-bgDark
 }

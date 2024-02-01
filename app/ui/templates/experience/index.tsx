@@ -21,8 +21,8 @@ const Experience = () => {
           slideShowType="reveal"
           theme={{
             primary: '#53746a',
-            secondary: '#fff',
-            cardBgColor: '#fff',
+            secondary: 'bg-white dark:bg-primaryDark',
+            cardBgColor: 'bg-white dark:bg-primaryDark',
             titleColor: 'black',
             titleColorActive: '#394950'
           }}

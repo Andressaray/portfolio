@@ -14,6 +14,7 @@ const Card = ({ title, description, image }: Props) => {
       </h4>
       <div className="flex flex-col p-2 justify-between gap-4">
         <Image
+          priority
           src={image}
           alt={title}
           width={400}
