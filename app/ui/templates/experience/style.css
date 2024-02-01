@@ -22,7 +22,7 @@
 }
 
 [data-testid='timeline-card-content-image'] {
-  @apply object-scale-down !important;
+  @apply object-contain rounded-lg !important;
 }
 
 [data-testid='timeline-card-content'] > span {
