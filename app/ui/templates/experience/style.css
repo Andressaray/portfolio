@@ -1,4 +1,3 @@
-
 .timeline-controls {
   @apply hidden !important;
 }
@@ -6,7 +5,7 @@
   @apply bg-transparent !important;
 }
 .timeline-item-title .active .rc-title {
-  @apply dark:bg-bgDark
+  @apply dark:bg-bgDark;
 }
 .timeline-item-title {
   @apply text-lg font-openSansBold dark:text-middleWhite !important;
@@ -18,10 +17,14 @@
   @apply text-lg font-openSansBold dark:text-middleWhite !important;
 }
 
-[data-testid="timeline-card-content"] {
+[data-testid='timeline-card-content'] {
   @apply sm:w-3/4 xl:w-2/4 shadow-[0_8px_30px_rgb(0,0,0,0.12)] rounded-xl p-2 dark:bg-[#232D3F] !important;
 }
 
-[data-testid="timeline-card-content"] > span {
-  @apply dark:bg-bgDark
+[data-testid='timeline-card-content-image'] {
+  @apply object-scale-down !important;
+}
+
+[data-testid='timeline-card-content'] > span {
+  @apply dark:bg-bgDark;
 }
