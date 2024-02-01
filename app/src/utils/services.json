@@ -1,0 +1,48 @@
+{
+  "es": [
+    {
+      "id": 1,
+      "title": "Desarrollo móvil",
+      "description": "Desarrollo de aplicaciones móviles para plataformas Android e iOS.[React Native, Flutter]",
+      "image": "https://res.cloudinary.com/villavicencio/image/upload/v1706509514/jobs/shffuwrxekmf8mkpqj8r.webp",
+      "bg": ""
+    },
+    {
+      "id": 2,
+      "title": "Desarrollo web",
+      "description": "Desarrollo de aplicaciones web y sitios web. [Reaccionar, Nextjs, Angular]",
+      "image": "https://res.cloudinary.com/villavicencio/image/upload/v1706509514/jobs/kgzigfhjrecrq962yk3j.png",
+      "bg": ""
+    },
+    {
+      "id": 3,
+      "title": "Desarrollo back-end",
+      "description": "Desarrollo de aplicaciones backend y APIs. [Nodejs, MongoDB, PostgreSQL, GraphQL]",
+      "image": "https://res.cloudinary.com/villavicencio/image/upload/v1706509514/jobs/wtrthakulaekcnl7tidl.png",
+      "bg": ""
+    }
+  ],
+  "en": [
+    {
+      "id": 1,
+      "title": "Mobile development",
+      "description": "Development of mobile applications for Android and iOS platforms.[React Native, Flutter]",
+      "image": "https://res.cloudinary.com/villavicencio/image/upload/v1706509514/jobs/shffuwrxekmf8mkpqj8r.webp",
+      "bg": ""
+    },
+    {
+      "id": 2,
+      "title": "Web development",
+      "description": "Development of web applications and websites. [React, Nextjs, Angular]",
+      "image": "https://res.cloudinary.com/villavicencio/image/upload/v1706509514/jobs/kgzigfhjrecrq962yk3j.png",
+      "bg": ""
+    },
+    {
+      "id": 3,
+      "title": "Backend development",
+      "description": "Development of backend applications and APIs. [Nodejs, MongoDB, PostgreSQL, GraphQL]",
+      "image": "https://res.cloudinary.com/villavicencio/image/upload/v1706509514/jobs/wtrthakulaekcnl7tidl.png",
+      "bg": ""
+    }
+  ]
+}

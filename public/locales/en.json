@@ -1,0 +1,15 @@
+{
+  "iam": "I am Full Stack developer",
+  "close": "Close",
+  "home": "Home",
+  "experience": "Experience",
+  "contact": "Get in touch",
+  "services": "Services",
+  "aboutMe": "I am a highly motivated professional with a solid academic background and work experience in software development. I have exceptional skills in different software environments, backed by a proven track record of achievements in multidisciplinary projects and teams.",
+  "placeholderName": "Your name",
+  "placeholderEmail": "Your email",
+  "placeholderMessage": "Go ahead, I'm listening...",
+  "sendMessage": "Send message",
+  "contactTitle": "I am here for you, How can I help you?",
+  "emailInvalid": "Invalid email"
+}

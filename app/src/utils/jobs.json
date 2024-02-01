@@ -1,0 +1,202 @@
+{
+  "es": [
+    {
+      "id": 0,
+      "title": "JUN 2022 - AHORA",
+      "name": "Advance Developer",
+      "url": "",
+      "cardSubtitle": "DualBoot Partners",
+      "cardDetailedText": "Desarrollar aplicaciones móviles en React Native y determinar tiempos para tareas del equipo en otros proyectos.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/i8wz2tkzpkm0tc3a5wpo.jpg"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "title": "FEB 2023 - AGO 2023",
+      "name": "Mobile Developer",
+      "url": "",
+      "cardSubtitle": "Connecting Tech People",
+      "cardDetailedText": "Desarrollar aplicaciones móviles en React Native y Flutter.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/aerzlxiyzyczyqfhlcxn.jpg"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "AGO 2021 - DIC 2022",
+      "name": "FULL STACK DEVELOPER",
+      "url": "",
+      "cardSubtitle": "KOMERCIA",
+      "cardDetailedText": "Desarrollar aplicaciones móviles en React Native y Typescript, en conjunto con aplicaciones web con NEXT JS y Backend en Nodejs y Laravel.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/a7hjxoaewdzsqegdfdaf.jpg"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "SEP 2021 - MAR 2022",
+      "name": "FULL STACK DEVELOPER",
+      "url": "",
+      "cardSubtitle": "CRIZZ AGENCY DIGITAL",
+      "cardDetailedText": "Desarrollar aplicaciones móviles en React Native (expo) y Backend con Nodejs (Sails).",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/w5aknbabdd5umhtpafr6.png"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "FEB 2021 - AGO 2021",
+      "name": "WEB DEVELOPER",
+      "url": "",
+      "cardSubtitle": "PEGASUS SOFTWARE S.A.S",
+      "cardDetailedText": "Implementar nuevos requisitos en la web, aplicación móvil y backend, para poder contar con nuevas funcionalidades.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/npqi1ckvepbum95kcsb5.jpg"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "MAY 2020 - JUL 2020",
+      "name": "FREE LANCER",
+      "url": "",
+      "cardSubtitle": "VARIOS",
+      "cardDetailedText": "Resolver errores en aplicación móvil (React Native), aplicación web (React JS) y backend en PHP.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706512076/jobs/aofzao6g2ug0unbb6sbb.webp"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "OCT 2019 - MAR 2020",
+      "name": "WEB DEVELOPER",
+      "url": "",
+      "cardSubtitle": "PEGASUS SOFTWARE S.A.S",
+      "cardDetailedText": "Implementar código para la automatización de tareas de usuario que se almacenan en la base de datos.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/npqi1ckvepbum95kcsb5.jpg"
+        }
+      }
+    }
+  ],
+  "en": [
+    {
+      "id": 0,
+      "title": "JUN 2022 - NOW",
+      "name": "Advance Developer",
+      "url": "",
+      "cardSubtitle": "DualBoot Partners",
+      "cardDetailedText": "Develop mobile applications in React Native and determining time for team tasks in other projects.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/i8wz2tkzpkm0tc3a5wpo.jpg"
+        }
+      }
+    },
+    {
+      "id": 1,
+      "title": "FEB 2023 - AGO 2023",
+      "name": "Mobile Developer",
+      "url": "",
+      "cardSubtitle": "Connecting Tech People",
+      "cardDetailedText": "Develop mobile applications in React Native and Flutter.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/aerzlxiyzyczyqfhlcxn.jpg"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "title": "AGO 2021 - DEC 2022",
+      "name": "FULL STACK DEVELOPER",
+      "url": "",
+      "cardSubtitle": "KOMERCIA",
+      "cardDetailedText": "Develop mobile applications in React Native and Typescript, together with web applications with NEXT JS and Backend in Nodejs and Laravel.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/a7hjxoaewdzsqegdfdaf.jpg"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "title": "SEP 2021 - MAR 2022",
+      "name": "FULL STACK DEVELOPER",
+      "url": "",
+      "cardSubtitle": "CRIZZ AGENCY DIGITAL",
+      "cardDetailedText": "Develop mobile applications in React Native (expo) and Backend with Nodejs (Sails).",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/w5aknbabdd5umhtpafr6.png"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "title": "FEB 2021 - AGO 2021",
+      "name": "WEB DEVELOPER",
+      "url": "",
+      "cardSubtitle": "PEGASUS SOFTWARE S.A.S",
+      "cardDetailedText": "Implement new requirements on the web, mobile application and backend, in order to have new features.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/npqi1ckvepbum95kcsb5.jpg"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "title": "MAY 2020 - JUL 2020",
+      "name": "FREE LANCER",
+      "url": "",
+      "cardSubtitle": "SEVERAL",
+      "cardDetailedText": "Resolve bugs in mobile aplicaction (React Native), web application (React JS) and backend in PHP.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706512076/jobs/aofzao6g2ug0unbb6sbb.webp"
+        }
+      }
+    },
+    {
+      "id": 6,
+      "title": "OCT 2019 - MAR 2020",
+      "name": "WEB DEVELOPER",
+      "url": "",
+      "cardSubtitle": "PEGASUS SOFTWARE S.A.S",
+      "cardDetailedText": "Implement code fot the automation of user tasks that are stored in the database.",
+      "media": {
+        "type": "IMAGE",
+        "source": {
+          "url": "https://res.cloudinary.com/villavicencio/image/upload/v1706505904/jobs/npqi1ckvepbum95kcsb5.jpg"
+        }
+      }
+    }
+  ]
+}
