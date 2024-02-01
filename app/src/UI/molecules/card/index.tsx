@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 interface Props {
   title: string;
   description: string;
@@ -11,9 +13,11 @@ const Card = ({ title, description, image }: Props) => {
         {title}
       </h4>
       <div className="flex flex-col p-2 justify-between gap-4">
-        <img
+        <Image
           src={image}
           alt={title}
+          width={400}
+          height={400}
           className="w-full h-32 rounded-lg my-2 object-cover"
         />
         <p className="font-openSans text-base overflow-ellipsis dark:text-middleWhite">

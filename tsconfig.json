@@ -18,6 +18,7 @@
 				"name": "next"
 			}
 		],
+		"noEmitOnError": true,
 		"paths": {
 			"@/atoms": ["./app/src/UI/atoms/index.ts"],
 			"@/molecules": ["./app/src/UI/molecules/index.ts"],

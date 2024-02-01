@@ -8,11 +8,11 @@ const useTranslation = () => {
   const { language, languages, setLanguage } = languagesStore();
 
   useEffect(() => {
-    const value = navigator.language.split('-')[0].toLocaleLowerCase()
+    const value = navigator.language.split('-')[0].toLocaleLowerCase();
     if (value === 'es' || value === 'en') {
       setLanguage(value);
     }
-  }, []);
+  }, [setLanguage]);
   
   const t = (key: keyof typeof en): string => {
     const translations = {
@@ -30,5 +30,7 @@ const useTranslation = () => {
     t
   };
 };
+
+
 
 export default useTranslation;

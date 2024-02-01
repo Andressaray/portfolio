@@ -35,7 +35,9 @@ const Contact = () => {
       <Title text={t('contact')} />
       <div className="flex sm:flex-row w-full">
         <div className="flex flex-col sm:w-1/2 gap-5">
-          <h4 className="dark:text-middleWhite font-openSans">{t('contactTitle')}</h4>
+          <h4 className="dark:text-middleWhite font-openSans">
+            {t('contactTitle')}
+          </h4>
           <Input
             value={form.name}
             name="name"
@@ -47,14 +49,12 @@ const Contact = () => {
             name="email"
             onChange={handleChange}
             placeholder={t('placeholderEmail')}
-            children={
-              form.error && (
-                <span className="text-red-500 font-openSans text-sm mt-0.5">
-                  {t('emailInvalid')}
-                </span>
-              )
-            }
           />
+          {form.error && (
+            <span className="text-red-500 font-openSans text-sm -my-2 ml-1">
+              {t('emailInvalid')}
+            </span>
+          )}
           <TextArea
             name={'message'}
             onChange={handleChange}
