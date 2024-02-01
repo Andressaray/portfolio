@@ -8,8 +8,8 @@ const App = () => {
       <Navbar />
       <About />
       <Services />
-      <Experience/>
-      <Contact  />
+      <Experience />
+      <Contact />
     </main>
   );
 };

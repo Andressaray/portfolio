@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import { Button, Input, TextArea, Title } from '@/atoms';
-import { useTranslation } from '@/hooks';
+import { Button, Input, TextArea, Title } from '../../atoms';
+import { useTranslation } from '../../../lib/hooks';
 
 interface Form {
   name: string;

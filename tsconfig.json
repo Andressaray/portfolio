@@ -1,32 +1,32 @@
 {
-	"compilerOptions": {
-		"target": "es5",
-		"lib": ["dom", "dom.iterable", "esnext"],
-		"allowJs": true,
-		"skipLibCheck": true,
-		"strict": true,
-		"noEmit": true,
-		"esModuleInterop": true,
-		"module": "esnext",
-		"moduleResolution": "bundler",
-		"resolveJsonModule": true,
-		"isolatedModules": true,
-		"jsx": "preserve",
-		"incremental": true,
-		"plugins": [
-			{
-				"name": "next"
-			}
-		],
-		"noEmitOnError": true,
-		"paths": {
-			"@/atoms": ["./app/src/UI/atoms/index.ts"],
-			"@/molecules": ["./app/src/UI/molecules/index.ts"],
-			"@/templates": ["./app/src/UI/templates/index.ts"],
-			"@/hooks": ["./app/src/hooks/index.ts"],
-			"~/utils/*": ["./app/src/utils/*"],
-		}
-	},
-	"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-	"exclude": ["node_modules"]
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "noEmitOnError": true,
+    "paths": {
+      "@/atoms": ["./app/ui/atoms/index.ts"],
+      "@/molecules": ["./app/ui/molecules/index.ts"],
+      "@/templates": ["./app/ui/templates/index.ts"],
+      "@/hooks": ["./app/lib/hooks/index.ts"],
+      "~/utils/*": ["./app/lib/utils/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "exclude": ["node_modules"]
 }

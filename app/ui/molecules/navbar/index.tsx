@@ -1,8 +1,8 @@
 'use client';
 
 import { useState } from 'react';
-import { useTranslation } from '@/hooks';
-import { ButtonTheme } from '@/atoms';
+import { useTranslation } from '../../../lib/hooks';
+import { ButtonTheme } from '../../atoms';
 const Nabvar = () => {
   const { t, setLanguage, language } = useTranslation();
   const [isDarkMode, setIsDarkMode] = useState<boolean>(false);

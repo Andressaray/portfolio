@@ -1,7 +1,7 @@
 import { Card } from '@/molecules';
-import { useTranslation } from '@/hooks';
-import { Title } from '@/atoms';
-import services from '~/utils/services.json';
+import { useTranslation } from '../../../lib/hooks';
+import { Title } from '../../atoms';
+import services from '../../../lib/utils/services.json';
 
 const Services = () => {
   const { t, language } = useTranslation();
