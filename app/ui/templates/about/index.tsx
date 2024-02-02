@@ -31,11 +31,12 @@ const About = () => {
         <div className="w-full flex items-center justify-center">
           <Image
             alt="me"
-            className="animate__animated animate__backInDown h-[250px] w-[250px] object-cover border-primaryDark  rounded-full border-2"
+            className="animate__animated animate__fadeIn h-[350px] w-[350px] object-cover"
             width={200}
             height={200}
             src={
-              'https://res.cloudinary.com/villavicencio/image/upload/v1706721732/jobs/vlffwtq17sgvibbubmtq.png'
+              '/images/me_bg_g.svg'
+              // 'https://res.cloudinary.com/villavicencio/image/upload/v1706721732/jobs/vlffwtq17sgvibbubmtq.png'
             }
           />
         </div>

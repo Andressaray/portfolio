@@ -10,7 +10,7 @@ const TextArea = ({ name, value, onChange, placeholder }: Props) => {
     <textarea
       rows={5}
       cols={50}
-      className="w-full font-openSans p-2 border border-primary dark:bg-bgDark dark:text-middleWhite rounded-md"
+      className="w-full font-openSans p-2 border dark:bg-bgDark border-primary dark:border-t-primary dark:text-middleWhite rounded-md focus:outline-primaryDark"
       placeholder={placeholder}
       onChange={onChange}
       name={name}

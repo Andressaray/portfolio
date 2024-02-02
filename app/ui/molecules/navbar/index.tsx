@@ -32,17 +32,15 @@ const Nabvar = () => {
     document.documentElement.classList.toggle(newTheme);
     document.documentElement.classList.remove(isDarkMode ? 'dark' : 'light');
     setIsDarkMode(!isDarkMode);
+    handleHide();
   };
 
   const handleChangeLanguage = (e: React.ChangeEvent<HTMLSelectElement>) => {
     setLanguage(e.target.value as 'es' | 'en');
+    handleHide();
   };
 
-  const handleTheme = () => {
-    document.documentElement.classList.add('transition');
-    const theme = document.documentElement.classList.contains('dark');
-    setIsDarkMode(theme);
-  };
+  const handleHide = () => setHide(true);
 
   return (
     <nav className="border-gray-200">
@@ -86,6 +84,7 @@ const Nabvar = () => {
               <li key={index} className="py-2">
                 <a
                   href={route.path}
+                  onClick={handleHide}
                   className="text-move text-base font-openSans cursor-pointer dark:text-middleWhite hover:font-openSansBold"
                   aria-current="page"
                 >
