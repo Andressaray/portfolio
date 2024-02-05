@@ -68,13 +68,14 @@ const Contact = () => {
             </span>
           </Button>
         </div>
-        <Image
-          className="w-0 xl:w-1/4 xl:h-50 object-scale-down invisible xl:visible"
-          alt="contact"
-          src="https://res.cloudinary.com/villavicencio/image/upload/v1707094590/jobs/xtffx7bboulsjhgnvtiv.png"
-          width={400}
-          height={400}
-        />
+        <div className="w-0 xl:w-1/4 xl:h-50 object-scale-down invisible xl:visible">
+          <Image
+            alt="contact"
+            src="https://res.cloudinary.com/villavicencio/image/upload/v1707095198/jobs/cfjwdrfvdqxpxnkp4lta.png"
+            width={400}
+            height={400}
+          />
+        </div>
       </div>
     </section>
   );

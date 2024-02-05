@@ -16,6 +16,8 @@ html {
   scroll-behavior: smooth;
   scrollbar-color: #53746a #fff;
 }
+
+
 .text-move {
   @apply w-fit font-openSans font-semibold;
 }
