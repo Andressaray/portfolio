@@ -35,7 +35,7 @@ const Contact = () => {
       <Title text={t('contact')} />
       <div className="flex sm:flex-row w-full">
         <div className="flex flex-col sm:w-1/2 gap-5">
-          <h4 className="dark:text-middleWhite font-openSans">
+          <h4 className="text-middleBlack dark:text-middleWhite font-openSans">
             {t('contactTitle')}
           </h4>
           <Input

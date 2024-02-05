@@ -10,7 +10,7 @@ const About = () => {
     <section id="home" className="py-5">
       <article className="flex flex-col items-center gap-2 lg:flex-row">
         <div className="mb-5 flex flex-col gap-5 sm:items-start">
-          <h3 className="text-2xl font-openSansBold dark:text-white animate__animated animate__bounceInLeft">
+          <h3 className="text-middleBlack text-2xl font-openSansBold dark:text-white animate__animated animate__bounceInLeft">
             {t('iam')}
           </h3>
           <div className="w-max">
@@ -23,7 +23,7 @@ const About = () => {
             ref={refAboutMe}
             id="aboutMe"
           >
-            <p className="animate__animated animate__bounceInLeft font-openSans text-lg tracking-wider dark:text-middleWhite">
+            <p className="text-middleBlack animate__animated animate__bounceInLeft font-openSans text-lg tracking-wider dark:text-middleWhite">
               {t('aboutMe')}
             </p>
           </div>
@@ -35,8 +35,7 @@ const About = () => {
             width={200}
             height={200}
             src={
-              '/images/me_bg_g.svg'
-              // 'https://res.cloudinary.com/villavicencio/image/upload/v1706721732/jobs/vlffwtq17sgvibbubmtq.png'
+              'https://res.cloudinary.com/villavicencio/image/upload/v1707094591/jobs/dxo9aneohtkjc2tzvzdx.svg'
             }
           />
         </div>

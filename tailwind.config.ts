@@ -18,7 +18,8 @@ const config: Config = {
         primaryDark: '#005B41',
         bgDark: '#232D3F',
         white: '#ffffff',
-        middleWhite: '#D1D5DA'
+        middleWhite: '#D1D5DA',
+        middleBlack: '#2D2D2D'
       },
       keyframes: {
         typing: {

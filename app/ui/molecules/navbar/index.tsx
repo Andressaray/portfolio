@@ -74,7 +74,7 @@ const Nabvar = () => {
               <select
                 onChange={handleChangeLanguage}
                 value={language}
-                className="font-openSans bg-transparent dark:text-middleWhite appearance-none row-start-1 col-start-1"
+                className="font-openSans text-middleBlack bg-transparent dark:text-middleWhite appearance-none row-start-1 col-start-1"
               >
                 <option value="en">EN</option>
                 <option value="es">ES</option>
@@ -85,7 +85,7 @@ const Nabvar = () => {
                 <a
                   href={route.path}
                   onClick={handleHide}
-                  className="text-move text-base font-openSans cursor-pointer dark:text-middleWhite hover:font-openSansBold"
+                  className="text-middleBlack text-move text-base font-openSans cursor-pointer dark:text-middleWhite hover:font-openSansBold"
                   aria-current="page"
                 >
                   {route.name}

@@ -6,6 +6,10 @@ interface Props {
 }
 
 const ButtonTheme = ({ onClick, theme = 'light' }: Props) => {
+  const themeImages = {
+    light : 'https://res.cloudinary.com/villavicencio/image/upload/v1707094590/jobs/rh0zxyvs3gdf9g05ar4b.svg',
+    dark: 'https://res.cloudinary.com/villavicencio/image/upload/v1707094590/jobs/ihdwqsjwklsiz8yvrwhj.svg'
+  }
   return (
     <button onClick={onClick}>
       <Image
@@ -14,7 +18,7 @@ const ButtonTheme = ({ onClick, theme = 'light' }: Props) => {
         width={20}
         className = 'dark:invert'
         priority
-        src={theme === 'light' ? '/images/moon.svg' : '/images/sun.svg'}
+        src={themeImages[theme]}
       />
     </button>
   );
