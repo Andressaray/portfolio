@@ -9,7 +9,7 @@ const Services = () => {
   return (
     <section id="services" className="my-20">
       <Title text={t('services')} />
-      <div className="flex flex-wrap items-center gap-4 justify-between">
+      <div className="flex flex-col flex-wrap md:flex-row items-center gap-4 justify-evenly">
         {services[language].map((service) => (
           <Card
             key={service.id}

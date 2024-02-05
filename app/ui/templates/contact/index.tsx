@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Image from 'next/image';
 import { Button, Input, TextArea, Title } from '../../atoms';
 import { useTranslation } from '../../../lib/hooks';
 
@@ -33,8 +34,8 @@ const Contact = () => {
   return (
     <section className="my-20" id="contact">
       <Title text={t('contact')} />
-      <div className="flex sm:flex-row w-full">
-        <div className="flex flex-col sm:w-1/2 gap-5">
+      <div className="flex flex-col w-full p-0 gap-5 items-center lg:flex-row lg:p-5 lg:justify-around">
+        <div className="flex flex-col gap-5 w-full xl:w-2/4">
           <h4 className="text-middleBlack dark:text-middleWhite font-openSans">
             {t('contactTitle')}
           </h4>
@@ -67,7 +68,13 @@ const Contact = () => {
             </span>
           </Button>
         </div>
-        <div className=""></div>
+        <Image
+          className="w-0 xl:w-1/4 xl:h-50 object-scale-down invisible xl:visible"
+          alt="contact"
+          src="https://res.cloudinary.com/villavicencio/image/upload/v1707094590/jobs/xtffx7bboulsjhgnvtiv.png"
+          width={400}
+          height={400}
+        />
       </div>
     </section>
   );
