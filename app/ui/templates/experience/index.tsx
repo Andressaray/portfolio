@@ -1,9 +1,9 @@
 'use client';
 
 import Image from 'next/image';
-import { Title } from '../../atoms';
-import { useTranslation } from '../../../lib/hooks';
-import jobs from '../../../lib/utils/jobs.json';
+import { Title } from '@/atoms';
+import { useTranslation } from '@/hooks';
+import jobs from '~/utils/jobs.json';
 import './style.css';
 
 import {

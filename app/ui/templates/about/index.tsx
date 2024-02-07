@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { useTranslation } from '../../../lib/hooks';
+import { useTranslation } from '@/hooks';
 
 const About = () => {
   const { t } = useTranslation();
