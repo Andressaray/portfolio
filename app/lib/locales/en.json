@@ -11,5 +11,7 @@
   "placeholderMessage": "Go ahead, I'm listening...",
   "sendMessage": "Send message",
   "contactTitle": "I am here for you, How can I help you?",
-  "emailInvalid": "Invalid email"
+  "emailInvalid": "Invalid email",
+  "successMessage": "Message sent successfully",
+  "errorMessage": "Error sending message"
 }

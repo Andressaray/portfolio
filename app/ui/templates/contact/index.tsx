@@ -1,35 +1,11 @@
-import { useState } from 'react';
 import Image from 'next/image';
-import { Button, Input, TextArea, Title } from '../../atoms';
-import { useTranslation } from '../../../lib/hooks';
+import { Button, Input, Loader, TextArea, Title } from '@/atoms';
+import { useTranslation } from '@/hooks';
+import { useContactForm } from './hooks';
 
-interface Form {
-  name: string;
-  email: string;
-  message: string;
-  error: boolean;
-}
 const Contact = () => {
   const { t } = useTranslation();
-  const [form, setForm] = useState<Form>({
-    email: '',
-    message: '',
-    name: '',
-    error: false
-  });
-
-  const handleChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
-  ) => {
-    const { name, value } = e.target;
-    if (name === 'email') {
-      const regext = new RegExp(/^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g);
-      const isError = !regext.test(value);
-      setForm({ ...form, [name]: value, error: isError });
-      return;
-    }
-    setForm({ ...form, [name]: value });
-  };
+  const {form, handleChange, handleSendEmail, isLoading} = useContactForm()
 
   return (
     <section className="my-20" id="contact">
@@ -62,10 +38,12 @@ const Contact = () => {
             placeholder={t('placeholderMessage')}
             value={form.message}
           />
-          <Button onClick={() => {}}>
-            <span className="font-openSans text-base text-middleWhite hover:text-white">
-              {t('sendMessage')}
-            </span>
+          <Button onClick={handleSendEmail}>
+            <Loader isLoading={isLoading}>
+              <span className="font-openSans text-base text-middleWhite hover:text-white">
+                {t('sendMessage')}
+              </span>
+            </Loader>
           </Button>
         </div>
         <div className="w-0 xl:w-1/4 xl:h-50 object-scale-down invisible xl:visible">

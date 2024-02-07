@@ -24,7 +24,9 @@
       "@/molecules": ["./app/ui/molecules/index.ts"],
       "@/templates": ["./app/ui/templates/index.ts"],
       "@/hooks": ["./app/lib/hooks/index.ts"],
-      "~/utils/*": ["./app/lib/utils/*"]
+      "~/utils/*": ["./app/lib/utils/*"],
+      "@/services": ["./app/lib/services/index.ts"],
+      "@toast": ["./app/lib/toast/index.ts"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

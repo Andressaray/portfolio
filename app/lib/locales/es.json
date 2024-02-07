@@ -11,5 +11,7 @@
   "placeholderMessage": "Ingresa tu mensaje",
   "sendMessage": "Enviar mensaje",
   "contactTitle": "Estoy aqui para ayudarte, Cómo puedo ayudarte?",
-  "emailInvalid": "Email inválido"
+  "emailInvalid": "Email inválido",
+  "successMessage": "Mensaje enviado con éxito",
+  "errorMessage": "Error al enviar el mensaje"
 }

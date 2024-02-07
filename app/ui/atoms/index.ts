@@ -4,4 +4,5 @@ import Input from './input';
 import TextArea from './textArea';
 import ButtonTheme from './buttonTheme';
 import ButtonTop from './buttonTop';
-export { Title, Button, Input, TextArea, ButtonTheme, ButtonTop };
+import Loader from './loader'
+export { Title, Button, Input, TextArea, ButtonTheme, ButtonTop, Loader };

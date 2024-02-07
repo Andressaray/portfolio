@@ -1,4 +1,5 @@
 'use client';
+import { Toaster } from 'react-hot-toast';
 import { About, Contact, Experience, Services } from '@/templates';
 import { Navbar } from '@/molecules';
 import { useButtonUp } from '@/hooks';
@@ -14,6 +15,7 @@ const App = () => {
       <Services />
       <Experience />
       <Contact />
+      <Toaster />
     </main>
   );
 };
