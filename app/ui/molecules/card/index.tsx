@@ -8,7 +8,7 @@ interface Props {
 
 const Card = ({ title, description, image }: Props) => {
   return (
-    <div className="animate__animated animate__fadeIn sm:w-80 h-5/6 p-4 border-2 border-white bg-white dark:bg-transparent rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition ease-in-out delay-150 hover:-translate-y-0.5 dark:border-bgDark dark:hover:border-primary hover:scale-110 duration-300 z-0 hover:z-40">
+    <div className="animate__animated animate__fadeIn sm:w-80 h-5/6 p-4 border-2 border-white bg-white dark:bg-transparent rounded-lg shadow-[0_8px_30px_rgb(0,0,0,0.12)] transition ease-in-out delay-150 dark:border-bgDark dark:hover:border-primary">
       <h4 className="text-lg text-middleBlack font-openSansBold dark:text-middleWhite">
         {title}
       </h4>
