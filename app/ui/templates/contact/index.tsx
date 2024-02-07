@@ -5,7 +5,7 @@ import { useContactForm } from './hooks';
 
 const Contact = () => {
   const { t } = useTranslation();
-  const {form, handleChange, handleSendEmail, isLoading} = useContactForm()
+  const { form, handleChange, handleSendEmail, isLoading } = useContactForm();
 
   return (
     <section className="my-20" id="contact">
