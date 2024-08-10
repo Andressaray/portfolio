@@ -62,15 +62,17 @@ const Nabvar = () => {
           </svg>
         </button>
         <div
-          className={`${hide ? 'hidden' : 'visible'} w-full md:block md:w-auto`}
+          className={`${
+            hide ? 'hidden' : 'visible'
+          } items-start w-full md:block md:w-auto`}
           id="navbar-de fault"
         >
-          <ul className="font-medium flex flex-col p-2 md:p-0 mt-4 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">
+          <ul className="font-medium flex flex-col p-2 md:p-0 mt-4 items-start rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse">
             <ButtonTheme
               onClick={handleChangeTheme}
               theme={isDarkMode ? 'dark' : 'light'}
             />
-            <div className="grid mt-4 md:mt-0">
+            <div className="grid mt-4 items-start md:mt-0">
               <select
                 onChange={handleChangeLanguage}
                 value={language}
@@ -81,7 +83,7 @@ const Nabvar = () => {
               </select>
             </div>
             {routes.map((route, index) => (
-              <li key={index} className="py-2">
+              <li key={index}>
                 <a
                   href={route.path}
                   onClick={handleHide}

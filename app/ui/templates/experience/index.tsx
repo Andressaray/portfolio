@@ -1,17 +1,16 @@
 'use client';
 
+import React from 'react';
 import Image from 'next/image';
-import { Title } from '@/atoms';
-import { useTranslation } from '@/hooks';
-import jobs from '~/utils/jobs.json';
-import './style.css';
-
 import {
   VerticalTimeline,
   VerticalTimelineElement
 } from 'react-vertical-timeline-component';
 import { InView } from 'react-intersection-observer';
-import React from 'react';
+import { Title } from '@/atoms';
+import { useTranslation } from '@/hooks';
+import jobs from '~/utils/jobs.json';
+import './style.css';
 
 const Experience = () => {
   const [inView, setInView] = React.useState(false);
@@ -28,10 +27,11 @@ const Experience = () => {
               icon={
                 <Image
                   src={item.url}
-                  className="w-15 h-15 rounded-full"
+                  className="w-15 h-15 object-cover rounded-full logo"
                   alt={item.business}
                   priority
-                  height={200}
+                  objectFit="cover"
+                  height={220}
                   width={200}
                 />
               }

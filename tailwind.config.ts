@@ -13,6 +13,9 @@ const config: Config = {
       openSansBold: ['OpenSansBold']
     },
     extend: {
+      height: {
+        '4.5': '3.75rem'
+      },
       colors: {
         primary: '#53746a',
         primaryDark: '#005B41',

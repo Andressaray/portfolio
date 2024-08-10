@@ -17,3 +17,6 @@
 .vertical-timeline-element-content h4 {
   @apply text-sm font-openSans text-middleBlack dark:text-middleWhite;
 }
+.logo {
+  @apply h-10 sm:h-4.5;
+}
